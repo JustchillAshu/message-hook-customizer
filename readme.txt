@@ -1,5 +1,5 @@
 === Message Hook Customizer ===
-Contributors: gemini
+Contributors: justchill
 Donate link: https://example.com/
 Tags: custom message, hook, css, customizer
 Requires at least: 5.0

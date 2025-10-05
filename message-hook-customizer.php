@@ -3,7 +3,7 @@
  * Plugin Name: Message Hook Customizer
  * Description: Adds a custom message on a user-defined hook and allows adding additional CSS through the backend.
  * Version: 1.0
- * Author: Gemini
+ * Author: justchill
  */
 
 if (!defined('ABSPATH')) {
