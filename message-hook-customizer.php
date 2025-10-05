@@ -53,7 +53,7 @@ class MHC_Message_Hook_Customizer {
         if ( $additional_css ) {
             wp_register_style( 'mhc-custom-style', false );
             wp_enqueue_style( 'mhc-custom-style' );
-            wp_add_inline_style( 'mhc-custom-style', esc_html( $additional_css ) );
+            wp_add_inline_style( 'mhc-custom-style', $additional_css );
         }
     }
 }

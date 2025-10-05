@@ -29,7 +29,7 @@ class MHC_Admin_Settings_Page {
     public function register_settings() {
         register_setting( 'mhc_settings_group', 'mhc_hook_name', 'sanitize_text_field' );
         register_setting( 'mhc_settings_group', 'mhc_message_to_display', 'wp_kses_post' );
-        register_setting( 'mhc_settings_group', 'mhc_additional_css', 'esc_html' );
+        register_setting( 'mhc_settings_group', 'mhc_additional_css', 'sanitize_textarea_field' );
     }
 
     public function render_settings_page() {
